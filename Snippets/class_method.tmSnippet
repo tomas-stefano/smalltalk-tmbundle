@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.st)?/(?2::\u$1)/g}} class &gt;&gt; ${2:method_name} [
+  $0
+]</string>
+	<key>name</key>
+	<string>class_method</string>
+	<key>scope</key>
+	<string>source.smalltalk</string>
+	<key>tabTrigger</key>
+	<string>cmethod</string>
+	<key>uuid</key>
+	<string>5E80AA6F-DF85-49BA-8720-B646F6D69279</string>
+</dict>
+</plist>

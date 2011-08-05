@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Smalltalk</string>
+	<key>ordering</key>
+	<array>
+		<string>A18BF16A-DF88-41F4-A2ED-736CD2DBB7A6</string>
+		<string>19B8887F-DA51-4F63-B2DE-4A2022F44F86</string>
+		<string>2F35E812-57C5-47EF-9797-6A239E399990</string>
+		<string>372A165A-0EAB-4FCC-A2EC-CF402875CBEA</string>
+		<string>1C6D02CD-C031-46F0-AE13-31ADDEFCEF3D</string>
+		<string>9E317597-7595-472D-B3A9-9BE9882A6636</string>
+		<string>6FFBF0B8-8F29-48A5-B277-406A3DB42088</string>
+		<string>5E80AA6F-DF85-49BA-8720-B646F6D69279</string>
+		<string>17ED16BD-18DB-42D9-8105-04D4C69A6268</string>
+		<string>91DEAE5D-3FD1-4CDF-BD3A-E5A7665ECD2D</string>
+		<string>58AAE5AB-4023-4143-8219-6C642B62F6C6</string>
+		<string>FE8F5FFC-27A1-4214-9DC0-5D06699A8343</string>
+		<string>0B2C3393-1E70-4040-8865-74CE313067F6</string>
+		<string>D23E1F7C-D3FC-420A-8712-00100EB30667</string>
+		<string>1ED64A34-BCB1-44E1-A0FE-84053003E232</string>
+		<string>7B56E0CB-9A44-4D46-A329-AB12F074BAED</string>
+		<string>55D8E1F1-0078-41BB-BEAA-6D14A8FC6D18</string>
+		<string>8D85139E-E813-4683-910B-DB296AA409CA</string>
+	</array>
+	<key>uuid</key>
+	<string>7471537C-4EC6-4CCF-B93A-F087986CA465</string>
+</dict>
+</plist>

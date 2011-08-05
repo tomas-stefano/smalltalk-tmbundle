@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Object subclass: ${1:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.st)?/(?2::\u$1)/g}} [
+  &lt;category: '$2'&gt;
+  &lt;comment: '$3'&gt;
+  $0
+]</string>
+	<key>name</key>
+	<string>class (Object subclass: ...)</string>
+	<key>scope</key>
+	<string>source.smalltalk</string>
+	<key>tabTrigger</key>
+	<string>cla</string>
+	<key>uuid</key>
+	<string>91DEAE5D-3FD1-4CDF-BD3A-E5A7665ECD2D</string>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:method_name} [
+  &lt;category: '${2:accessing}'&gt;
+  $0
+]</string>
+	<key>name</key>
+	<string>method</string>
+	<key>scope</key>
+	<string>source.smalltalk</string>
+	<key>tabTrigger</key>
+	<string>method</string>
+	<key>uuid</key>
+	<string>6FFBF0B8-8F29-48A5-B277-406A3DB42088</string>
+</dict>
+</plist>
