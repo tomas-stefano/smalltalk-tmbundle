@@ -3,17 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:Object} subclass: ${2:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.st)?/(?2::\u$1)/g}}
+	<string>${1:Object} subclass: #${2:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.st)?/(?2::\u$1)/g}}
   instanceVariableNames: '$3' 
   classVariableNames: '$4'
   poolDictionaries: '$5' 
   category: '$6'
 
-  $0
-
-!</string>
+  $0</string>
 	<key>name</key>
 	<string>class instance variables ...</string>
+	<key>scope</key>
+	<string>source.smalltalk</string>
+	<key>tabTrigger</key>
+	<string>cla</string>
 	<key>uuid</key>
 	<string>FE8F5FFC-27A1-4214-9DC0-5D06699A8343</string>
 </dict>

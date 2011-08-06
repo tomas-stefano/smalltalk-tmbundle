@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;category: '$1'&gt;</string>
+	<string>&lt;comment: '$1'&gt;</string>
 	<key>name</key>
-	<string>category</string>
+	<string>comment</string>
 	<key>scope</key>
 	<string>source.smalltalk</string>
 	<key>tabTrigger</key>
-	<string>cat</string>
+	<string>com</string>
 	<key>uuid</key>
-	<string>19B8887F-DA51-4F63-B2DE-4A2022F44F86</string>
+	<string>F809A1A0-8D3E-416A-8782-C921068CCBD1</string>
 </dict>
 </plist>
