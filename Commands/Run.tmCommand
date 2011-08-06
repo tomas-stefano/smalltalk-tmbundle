@@ -18,6 +18,12 @@ def is_test_script?
   ENV["TM_FILEPATH"] =~ /\w*_test|test_\w*/ 
 end
 
+class String
+  def camelize
+    self.to_s.gsub(/\/(.?)/) { "::#{$1.upcase}" }.gsub(/(?:^|_)(.)/) { $1.upcase }
+  end
+end
+
 #
 # WILL USE THE GNU SMALLTALK AS DEFAULT. 
 # If you want another setting the TM_SMALLTALK_TEST variable in -&gt; Preferences.
@@ -26,7 +32,7 @@ end
 #
 def smalltalk_command
   if is_test_script?
-    [(ENV["TM_SMALLTALK_TEST"] || "gst-sunit"),  ENV["TM_FILEPATH"]]
+    [(ENV["TM_SMALLTALK_TEST"] || "gst-sunit"), "-f",  ENV["TM_FILEPATH"], File.basename(ENV["TM_FILEPATH"], '.st').camelize]
   else
     [(ENV["TM_SMALLTALK"] || "gst"),  ENV["TM_FILEPATH"]]
   end 
@@ -35,7 +41,8 @@ end
 TextMate.save_current_document
 TextMate::Executor.make_project_master_current_document
 
-TextMate::Executor.run(smalltalk_command)</string>
+TextMate::Executor.run(smalltalk_command) do |str, type|
+end</string>
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>

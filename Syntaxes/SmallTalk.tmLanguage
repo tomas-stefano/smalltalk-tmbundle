@@ -18,7 +18,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(super|self|yourself|new|extend|class)\b</string>
+			<string>\b(super|self|yourself|new|extend|class|Smalltalk)\b</string>
 			<key>name</key>
 			<string>keyword.language.smalltalk</string>
 		</dict>
