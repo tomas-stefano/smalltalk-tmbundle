@@ -4,6 +4,8 @@
 <dict>
 	<key>name</key>
 	<string>Typing Pairs: Block Opening</string>
+	<key>scope</key>
+	<string>source.smalltalk</string>
 	<key>settings</key>
 	<dict>
 		<key>smartTypingPairs</key>
