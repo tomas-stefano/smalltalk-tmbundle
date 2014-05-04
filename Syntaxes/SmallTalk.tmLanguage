@@ -13,7 +13,7 @@
 	<key>keyEquivalent</key>
 	<string>^~S</string>
 	<key>name</key>
-	<string>SmallTalk</string>
+	<string>Smalltalk</string>
 	<key>patterns</key>
 	<array>
 		<dict>
