@@ -42,7 +42,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.variable.smalltalk</string>
+					<string>punctuation.definition.instance-variables.begin.smalltalk</string>
 				</dict>
 				<key>2</key>
 				<dict>
@@ -52,7 +52,7 @@
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.variable.smalltalk</string>
+					<string>punctuation.definition.instance-variables.end.smalltalk</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -133,16 +133,38 @@
 		<dict>
 			<key>begin</key>
 			<string>"</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.begin.smalltalk</string>
+				</dict>
+			</dict>
 			<key>end</key>
 			<string>"</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.end.smalltalk</string>
+				</dict>
+			</dict>
 			<key>name</key>
-			<string>comment.language.smalltalk</string>
+			<string>comment.block.smalltalk</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(true|false|nil)\b</string>
+			<string>\b(true|false)\b</string>
 			<key>name</key>
-			<string>constant.language.smalltalk</string>
+			<string>constant.language.boolean.smalltalk</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(nil)\b</string>
+			<key>name</key>
+			<string>constant.language.nil.smalltalk</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -161,40 +183,96 @@
 			<string>constant.other.messages.smalltalk</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.constant.smalltalk</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>symbols</string>
 			<key>match</key>
-			<string>#[a-zA-Z_][a-zA-Z0-9_:]*</string>
+			<string>(#)[a-zA-Z_][a-zA-Z0-9_:]*</string>
 			<key>name</key>
 			<string>constant.other.symbol.smalltalk</string>
 		</dict>
 		<dict>
 			<key>begin</key>
 			<string>#\[</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.constant.begin.smalltalk</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>ByteArray Constructor. Unfortunely this dont validate only numbers. TODO.</string>
 			<key>end</key>
 			<string>\]</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.constant.end.smalltalk</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>constant.other.bytearray.smalltalk</string>
 		</dict>
 		<dict>
 			<key>begin</key>
 			<string>#\(</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.constant.begin.smalltalk</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Array Constructor</string>
 			<key>end</key>
 			<string>\)</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.constant.end.smalltalk</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>constant.other.array.smalltalk</string>
 		</dict>
 		<dict>
 			<key>begin</key>
 			<string>'</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.smalltalk</string>
+				</dict>
+			</dict>
 			<key>end</key>
 			<string>'</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.smalltalk</string>
+				</dict>
+			</dict>
 			<key>name</key>
-			<string>string.smalltalk</string>
+			<string>string.quoted.single.smalltalk</string>
 		</dict>
 		<dict>
 			<key>match</key>
