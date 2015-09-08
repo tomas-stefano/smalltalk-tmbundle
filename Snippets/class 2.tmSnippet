@@ -9,7 +9,7 @@
 	$0
 ]</string>
 	<key>name</key>
-	<string>class (Object subclass: ...)</string>
+	<string>class (Object subclass: …)</string>
 	<key>scope</key>
 	<string>source.smalltalk</string>
 	<key>tabTrigger</key>

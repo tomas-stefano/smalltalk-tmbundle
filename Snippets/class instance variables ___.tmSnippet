@@ -11,7 +11,7 @@
 
 	$0</string>
 	<key>name</key>
-	<string>class instance variables ...</string>
+	<string>class instance variables …</string>
 	<key>scope</key>
 	<string>source.smalltalk</string>
 	<key>tabTrigger</key>
