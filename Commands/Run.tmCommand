@@ -51,6 +51,31 @@ end</string>
 	<string>Run</string>
 	<key>output</key>
 	<string>showAsHTML</string>
+	<key>requiredCommands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>gst</string>
+			<key>locations</key>
+			<array>
+				<string>/opt/local/bin/gst</string>
+				<string>/usr/local/bin/gst</string>
+			</array>
+			<key>variable</key>
+			<string>TM_SMALLTALK</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>gst-sunit</string>
+			<key>locations</key>
+			<array>
+				<string>/opt/local/bin/gst-sunit</string>
+				<string>/usr/local/bin/gst-sunit</string>
+			</array>
+			<key>variable</key>
+			<string>TM_SMALLTALK_TEST</string>
+		</dict>
+	</array>
 	<key>scope</key>
 	<string>source.smalltalk</string>
 	<key>uuid</key>
