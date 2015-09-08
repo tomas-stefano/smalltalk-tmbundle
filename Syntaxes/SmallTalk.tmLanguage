@@ -58,8 +58,15 @@
 				</dict>
 				<key>2</key>
 				<dict>
-					<key>name</key>
-					<string>support.type.variable.declaration.smalltalk</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>match</key>
+							<string>\w+</string>
+							<key>name</key>
+							<string>support.type.variable.declaration.smalltalk</string>
+						</dict>
+					</array>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -75,14 +82,21 @@
 			<dict>
 				<key>1</key>
 				<dict>
-					<key>name</key>
-					<string>entity.name.function.block.smalltalk</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>match</key>
+							<string>:\w+</string>
+							<key>name</key>
+							<string>entity.name.function.block.smalltalk</string>
+						</dict>
+					</array>
 				</dict>
 			</dict>
 			<key>comment</key>
 			<string>Parse the blocks like: [ :a :b | ...... ]</string>
 			<key>match</key>
-			<string>\[\s{0,}(:{1,}[\w\ ]+.*\|)</string>
+			<string>\[((\s+|:\w+)*)\|</string>
 		</dict>
 		<dict>
 			<key>match</key>
