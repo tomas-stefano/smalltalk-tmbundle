@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>description</key>
+	<string>An object-oriented, dynamically typed, reflective programming language.</string>
 	<key>mainMenu</key>
 	<dict>
 		<key>items</key>
