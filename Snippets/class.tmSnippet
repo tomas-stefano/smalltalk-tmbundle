@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>Object subclass: ${1:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.st)?/(?2::\u$1)/g}} [
-  $0
+	$0
 ]</string>
 	<key>name</key>
 	<string>class (without category)</string>

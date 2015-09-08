@@ -4,12 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>${1:Object} subclass: #${2:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.st)?/(?2::\u$1)/g}}
-  instanceVariableNames: '$3' 
-  classVariableNames: '$4'
-  poolDictionaries: '$5' 
-  category: '$6'
+	instanceVariableNames: '$3' 
+	classVariableNames: '$4'
+	poolDictionaries: '$5' 
+	category: '$6'
 
-  $0</string>
+	$0</string>
 	<key>name</key>
 	<string>class instance variables ...</string>
 	<key>scope</key>
