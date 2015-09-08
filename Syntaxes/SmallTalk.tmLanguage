@@ -68,7 +68,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\|)+([\w\ ]+)+(\|)</string>
+			<string>(\|)(\s*\w[\w ]*)(\|)</string>
 		</dict>
 		<dict>
 			<key>captures</key>
