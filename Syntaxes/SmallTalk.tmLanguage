@@ -152,7 +152,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\w*\s)+(\s*(subclass:))+\s*(\w*)</string>
+			<string>(\w+)(\s+(subclass:))\s*(\w*)</string>
 			<key>name</key>
 			<string>meta.class.smalltalk</string>
 		</dict>
