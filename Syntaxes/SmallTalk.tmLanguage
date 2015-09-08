@@ -18,9 +18,21 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(super|self|yourself|new|extend|class|Smalltalk)\b</string>
+			<string>\b(class)\b</string>
 			<key>name</key>
-			<string>keyword.language.smalltalk</string>
+			<string>storage.type.$1.smalltalk</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(extend|super|self)\b</string>
+			<key>name</key>
+			<string>storage.modifier.$1.smalltalk</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(yourself|new|Smalltalk)\b</string>
+			<key>name</key>
+			<string>keyword.control.$1.smalltalk</string>
 		</dict>
 		<dict>
 			<key>match</key>
