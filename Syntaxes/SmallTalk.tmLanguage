@@ -140,7 +140,7 @@
 					<key>name</key>
 					<string>entity.other.inherited-class.smalltalk</string>
 				</dict>
-				<key>2</key>
+				<key>3</key>
 				<dict>
 					<key>name</key>
 					<string>keyword.control.smalltalk</string>
