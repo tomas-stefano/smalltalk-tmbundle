@@ -1,11 +1,8 @@
-# Textmate Bundle for SmallTalk development
+# Textmate 2 Bundle for Smalltalk development
 
-## Install
+## Installation
 
-    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-    cd ~/Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com/tomas-stefano/smalltalk-tmbundle.git "Smalltalk.tmbundle"
-    osascript -e 'tell app "TextMate" to reload bundles'
+You can install this bundle in TextMate by opening the preferences and going to the bundles tab. After installation it will be automatically updated for you.
 
 ## Open files
 

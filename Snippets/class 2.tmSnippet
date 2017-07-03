@@ -4,12 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>Object subclass: ${1:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.st)?/(?2::\u$1)/g}} [
-  &lt;category: '$2'&gt;
-  &lt;comment: '$3'&gt;
-  $0
+	&lt;category: '$2'&gt;
+	&lt;comment: '$3'&gt;
+	$0
 ]</string>
 	<key>name</key>
-	<string>class (Object subclass: ...)</string>
+	<string>class (Object subclass: …)</string>
 	<key>scope</key>
 	<string>source.smalltalk</string>
 	<key>tabTrigger</key>
